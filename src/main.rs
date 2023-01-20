@@ -105,6 +105,7 @@ fn main() {
             1 => book_controller.input_book_dialog(),
             2 => book_controller.display_books(),
             3 => book_controller.list_available_books(),
+            0 => println!("Exiting the program"),
             _ => println!("invalid input"),
         }
         println!("")
